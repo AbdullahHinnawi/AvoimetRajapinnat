@@ -1,0 +1,8 @@
+{"tyontekijat":
+[
+  {"firstName":"Mauno", "lastName":"Ahonen", "osoite": "osoite 1", "puhelinNumero": [{"kotipuhelin":"044 555 6666","työpuhelin":"033 444 5555"}]},
+  {"firstName":"Matti", "lastName":"Näsä", "osoite": "osoite 2", "puhelinNumero": [{"kotipuhelin":"044 666 7777","työpuhelin":"033 888 9999"}]},
+  {"firstName":"Raimo", "lastName":"Vormisto", "osoite": "osoite 3", "puhelinNumero": [{"kotipuhelin":"022 333 9999","työpuhelin":null}]},
+  {"firstName":"Timo", "lastName":"Silakka", "osoite": "osoite 4", "puhelinNumero": [{"kotipuhelin":"044 777 9999"}]}
+]
+}
