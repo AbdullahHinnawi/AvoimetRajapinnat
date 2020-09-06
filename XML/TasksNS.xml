@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<tasks xmlns= "http://www.namespace.fi" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.namespace.fi
+       http://localhost:63343/AvoimetRajapinnat/XML/TasksNS.xml?_ijt=o4uqphb8v3eb71mrs9c244s8fc">
+    <task taskID="A1234">
+        <name>Task 1</name>
+        <date>2020-10-24</date>
+        <time>13:20:00</time>
+        <completed><no/></completed>
+        <moreInfo>For more info about this task, you can check....</moreInfo>
+    </task>
+    <task taskID="A1235">
+        <name>Task 2</name>
+        <date>2020-11-19</date>
+        <time>15:00:00</time>
+        <completed><no/></completed>
+        <moreInfo>For more info about this task, you can check....</moreInfo>
+    </task>
+</tasks>

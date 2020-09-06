@@ -1,0 +1,37 @@
+<?xml version = "1.0" encoding = "ISO-8859-1"?>
+<xsd:schema xmlns:xsd = "http://www.w3.org/2001/XMLSchema"
+            targetNamespace="http://www.namespace.fi"
+            xmlns="http://www.namespace.fi"
+            elementFormDefault = "qualified">
+
+    <!-- definition of complex elements -->
+    <xsd:element name = "completed">
+        <xsd:complexType>
+            <xsd:choice>
+                <xsd:element name ="yes" type = "xsd:string"/>
+                <xsd:element name ="no" type = "xsd:string"/>
+            </xsd:choice>
+        </xsd:complexType>
+    </xsd:element>
+
+    <xsd:element name = "task">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element name ="name" type="xsd:string"/>
+                <xsd:element name ="date" type = "xsd:date"/>
+                <xsd:element name ="time" type = "xsd:time"/>
+                <xsd:element ref ="completed"/>
+                <xsd:element name ="moreInfo" type = "xsd:string"/>
+            </xsd:sequence>
+            <xsd:attribute name ="taskID" type ="xsd:ID" use="required"/>
+        </xsd:complexType>
+    </xsd:element>
+
+    <xsd:element name = "tasks">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element ref="task" maxOccurs="unbounded"/>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+</xsd:schema>

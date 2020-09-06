@@ -1,0 +1,45 @@
+<?xml version = "1.0" encoding = "ISO-8859-1"?>
+<xsd:schema xmlns:xsd = "http://www.w3.org/2001/XMLSchema" elementFormDefault = "qualified">
+
+    <!-- definition of simple elements -->
+    <xsd:element name ="name" type="xsd:string"/>
+    <xsd:element name ="date" type = "xsd:date"/>
+    <xsd:element name ="time" type = "xsd:time"/>
+    <xsd:element name ="yes" type = "xsd:string"/>
+    <xsd:element name ="no" type = "xsd:string"/>
+    <xsd:element name ="moreInfo" type = "xsd:string"/>
+
+    <!-- definition of attributes -->
+    <xsd:attribute name ="taskID" type ="xsd:ID"/>
+
+    <!-- definition of complex elements -->
+    <xsd:element name = "completed">
+        <xsd:complexType>
+            <xsd:choice>
+                <xsd:element ref ="yes"/>
+                <xsd:element ref ="no"/>
+            </xsd:choice>
+        </xsd:complexType>
+    </xsd:element>
+
+    <xsd:element name = "task">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element ref ="name"/>
+                <xsd:element ref ="date"/>
+                <xsd:element ref ="time"/>
+                <xsd:element ref ="completed"/>
+                <xsd:element ref ="moreInfo"/>
+            </xsd:sequence>
+            <xsd:attribute ref ="taskID" use ="required"/>
+        </xsd:complexType>
+    </xsd:element>
+
+    <xsd:element name = "tasks">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element ref="task" maxOccurs="unbounded"/>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+</xsd:schema>

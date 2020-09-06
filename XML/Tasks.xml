@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE tasks SYSTEM "Tasks.dtd">
+<tasks>
+    <task taskID="A1234">
+        <name>Task 1</name>
+        <date>2020-10-24</date>
+        <time>13:20:00</time>
+        <completed><no/></completed>
+        <moreInfo>For more info about this task, you can check....</moreInfo>
+    </task>
+</tasks>

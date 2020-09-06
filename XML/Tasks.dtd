@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+        <!ATTLIST task taskID ID #REQUIRED>
+        <!ELEMENT tasks (task*)>
+        <!ELEMENT name (#PCDATA)>  <!-- element declaration -->
+        <!ELEMENT date (#PCDATA)>
+        <!ELEMENT time (#PCDATA)>
+        <!ELEMENT yes (#PCDATA)>
+        <!ELEMENT no (#PCDATA)>
+        <!ELEMENT completed (yes | no)>
+        <!ELEMENT moreInfo (#PCDATA)>
+        <!ELEMENT task (name,date,time,completed,moreInfo?)>
