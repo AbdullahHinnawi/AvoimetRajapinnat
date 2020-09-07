@@ -14,16 +14,16 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/JSON_Tyontekijat/tyontekijat.html">
+        <entry file="file://$PROJECT_DIR$/JSON_1-3/tyontekijat.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+            <state relative-caret-position="-343">
+              <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JSON_Tyontekijat/tyontekijat.json">
+        <entry file="file://$PROJECT_DIR$/JSON_1-3/tyontekijat.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="115">
               <caret line="5" column="63" selection-start-line="5" selection-start-column="63" selection-end-line="5" selection-end-column="63" />
@@ -69,9 +69,9 @@
     <auto-save>true</auto-save>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="553" />
+    <option name="x" value="834" />
     <option name="y" value="23" />
-    <option name="width" value="1127" />
+    <option name="width" value="846" />
     <option name="height" value="978" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -132,18 +132,18 @@
       <option name="presentableId" value="Default" />
       <updated>1599206672282</updated>
       <workItem from="1599206674867" duration="9032000" />
-      <workItem from="1599391542061" duration="7764000" />
+      <workItem from="1599391542061" duration="8930000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16796000" />
+    <option name="totallyTimeSpent" value="17962000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="553" y="23" width="1127" height="978" extended-state="0" />
+    <frame x="834" y="23" width="846" height="978" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20276497" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.295302" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="DB Browser" order="2" weight="0.329602" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -157,7 +157,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32977462" />
       <window_info anchor="bottom" id="DB Execution Console" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32977462" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32977462" />
       <window_info anchor="bottom" id="GitLabIntegration" order="11" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.32977462" />
@@ -223,17 +223,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JSON_Tyontekijat/tyontekijat.json">
+    <entry file="file://$PROJECT_DIR$/JSON_1-3/tyontekijat.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
           <caret line="5" column="63" selection-start-line="5" selection-start-column="63" selection-end-line="5" selection-end-column="63" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JSON_Tyontekijat/tyontekijat.html">
+    <entry file="file://$PROJECT_DIR$/JSON_1-3/tyontekijat.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+        <state relative-caret-position="-343">
+          <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
         </state>
       </provider>
     </entry>
