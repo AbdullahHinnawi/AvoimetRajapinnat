@@ -1,9 +1,9 @@
 # vueroutermenu
 A simple Menu-implementation with Vue-Router: https://appdividend.com/2018/12/28/vue-router-tutorial-with-example-how-to-use-routing-in-vuejs/
 
-#### List Events
+## List Events
 ![listEvents](listEvents.png)
-#### Add Event
+## Add Event
 ![addEvent](addEvent.png)
 
 ## Project setup
