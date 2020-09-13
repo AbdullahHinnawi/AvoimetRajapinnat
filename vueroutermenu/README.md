@@ -5,6 +5,8 @@ A simple Menu-implementation with Vue-Router: https://appdividend.com/2018/12/28
 ![listEvents](listEvents.png)
 ## Add Event
 ![addEvent](addEvent.png)
+## Event Submitted
+![submitted](submitted.png)
 
 ## Project setup
 ```

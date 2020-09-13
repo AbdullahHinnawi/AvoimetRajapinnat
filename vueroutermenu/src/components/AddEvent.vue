@@ -9,21 +9,21 @@
 
             <div class="form-group">
                 <label for="category">Category</label><br>
-                <input v-model="event.category" type="text" id="category" name="category" placeholder="Category" required/>
+                <input v-model="event.category" type="text" ref="anyName" id="category" name="category" placeholder="Category" required/>
             </div>
 
             <div class="form-group">
                 <label for="address">Address</label><br>
-                <input v-model="event.address" type="text" id="address" name="category" placeholder="Address" required/>
+                <input v-model="event.address" type="text" ref="anyName" id="address" name="category" placeholder="Address" required/>
             </div>
 
             <div class="form-group">
                 <label for="date">Date</label><br>
-                <input v-model="event.date" type="date" id="date" name="date" placeholder="Date" required/>
+                <input v-model="event.date" type="date" ref="anyName" id="date" name="date" placeholder="Date" required/>
             </div>
             <div class="form-group">
                 <label for="time">Time</label>
-                <b-form-timepicker v-model="event.time" id="time" name="time" placeholder="Choose a time" size="sm" required></b-form-timepicker>
+                <b-form-timepicker v-model="event.time" ref="anyName" id="time" name="time" placeholder="Choose a time" size="sm" required></b-form-timepicker>
             </div>
 
             <div class="form-group">
@@ -78,9 +78,17 @@
           date:this.event.date,
           time: this.event.time
         };
+        // clear input values
+        this.event={
+              name:'',
+              category:'',
+              address:'',
+              date:'',
+              time:''
+        };
+
         await axios.post('http://localhost:3001/events/', data).then(function(res) {
           window.console.log('res.data',res.data);
-
         }).catch(function(err) {
           window.console.log('err',err);
         });
