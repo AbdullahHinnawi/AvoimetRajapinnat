@@ -1,0 +1,36 @@
+{
+  "events": [
+    {
+      "id": 1,
+      "name": "Event 1",
+      "date": "2019-05-30",
+      "time": "17:30:00",
+      "address": "Aleksanderinkatu 1",
+      "category": "Category 1"
+    },
+    {
+      "id": 2,
+      "name": "Event 2",
+      "date": "2019-07-30",
+      "time": "13:30:00",
+      "address": "Aleksanderinkatu 2",
+      "category": "Category 2"
+    },
+    {
+      "id": 3,
+      "name": "Event 3",
+      "date": "2019-05-30",
+      "time": "14:00:00",
+      "address": "Aleksanderinkatu 3",
+      "category": "Category 3"
+    },
+    {
+      "name": "Event 4",
+      "category": "Category 4",
+      "address": "Aleksanderinkatu 4",
+      "date": "2020-10-21",
+      "time": "14:20",
+      "id": 4
+    }
+  ]
+}
