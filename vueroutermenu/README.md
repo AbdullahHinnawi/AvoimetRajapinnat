@@ -9,7 +9,7 @@ A simple Menu-implementation with Vue-Router: https://appdividend.com/2018/12/28
 ![submitted](src/assets/submitted.png)
 ## Form validation error
 ![formValidationError](src/assets/formValidationError.png)
-## form validation success
+## Form validation success
 ![formValidationSuccess](src/assets/formValidationSuccess.png)
 
 ## Project setup
