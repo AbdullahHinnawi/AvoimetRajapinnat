@@ -1,15 +1,10 @@
 import React, {Component} from 'react';
 import {Map, GoogleApiWrapper, Marker, InfoWindow} from 'google-maps-react';
 
-const mapStyles = {
-  width: '100%',
-  height: '70%',
-};
-
 export class MapContainer extends Component {
 
-  state={
-  isOpen: false
+  state = {
+    isOpen: false,
   };
 
   render() {
@@ -22,25 +17,24 @@ export class MapContainer extends Component {
       let id = this.props.stations[i].id;
       let lat = this.props.stations[i].latitude;
       let lng = this.props.stations[i].longitude;
-      locations.push({id: id, lat: lat,lng: lng });
+      locations.push({id: id, lat: lat, lng: lng});
     }
-    console.log("LOCATIONS", locations);
+    console.log('LOCATIONS', locations);
 
     return (
         <Map
             google={this.props.google}
             zoom={10}
-            style={mapStyles}
             initialCenter={{
-              lat: 60.16952 ,
-              lng:24.93545
+              lat: 60.16952,
+              lng: 24.93545,
             }}
             locations={locations}
         >
           {!selected && locations.map(marker => (
               <Marker
                   name={this.props.name}
-                  position={{ lat: marker.lat, lng: marker.lng }}
+                  position={{lat: marker.lat, lng: marker.lng}}
                   key={marker.id}
 
               />
@@ -49,18 +43,19 @@ export class MapContainer extends Component {
           {selected && (
               <Marker
                   name={this.props.name}
-                  position={{ lat: this.props.lat, lng: this.props.lng }}
+                  position={{lat: this.props.lat, lng: this.props.lng}}
                   key={this.props.id}
                   onClick={() => {
-                   this.setState({isOpen: true})}}
+                    this.setState({isOpen: true});
+                  }}
               >
 
                 {this.state.isOpen && (
                     <InfoWindow
                         onClose={() => {
-                          this.setState({isOpen: false})
+                          this.setState({isOpen: false});
                         }}
-                        position={{ lat: this.props.lat, lng: this.props.lng }}
+                        position={{lat: this.props.lat, lng: this.props.lng}}
                     >
                       <div>
                         <h3>Station: {this.props.name}</h3>
@@ -71,10 +66,9 @@ export class MapContainer extends Component {
                 )}
 
               </Marker>
-            )}
+          )}
 
         </Map>
-
 
     );
   }
@@ -82,5 +76,5 @@ export class MapContainer extends Component {
 }
 
 export default GoogleApiWrapper({
-  apiKey: 'Put your google maps API here'
+  apiKey: 'Put here your api key',
 })(MapContainer);

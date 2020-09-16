@@ -2,7 +2,7 @@ import React from 'react';
 
 import './App.css';
 
-import Bikes from './bikes.js'
+import Bikes from './components/bikes.js'
 
 const App = () => {
 

@@ -1,26 +1,39 @@
-#selectDiv{
-    width:100%;
-    text-align: center;
+.App{
+    width:auto;
+
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.container{
+    width: 100% !important;
+    max-width:100% !important;
 
 }
-.select{
-    width: 400px;
-    margin-left: auto;
-    margin-right: auto;
-
+.row{
+    min-height: 600px;
 }
-
+.col, .col-5{
+    text-align: left;
+}
 table {
     border-collapse: collapse;
-    text-align: center;
+    text-align: left;
     margin-right: auto;
     margin-left: auto;
 }
 td,th {
-    padding: 8px;
+    padding: 5px;
     width:200px;
     border: 1px solid #ddd;
 }
+h1{
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+
 h1{
     text-align:center;
     margin:20px auto !important;
