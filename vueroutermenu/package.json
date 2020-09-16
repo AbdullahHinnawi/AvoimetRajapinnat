@@ -11,8 +11,10 @@
     "axios": "^0.20.0",
     "bootstrap-vue": "^2.16.0",
     "core-js": "^3.6.5",
+    "save": "^2.4.0",
     "vue": "^2.6.11",
-    "vue-router": "^3.4.3"
+    "vue-router": "^3.4.3",
+    "vuelidate": "^0.7.5"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",

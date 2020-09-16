@@ -6,14 +6,15 @@ import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap-vue/dist/bootstrap-vue.css';
 
 import routes from '../src/routes'
+import {Vuelidate} from 'vuelidate';
 
-Vue.config.productionTip = false
+Vue.config.productionTip = false;
 
-Vue.use(VueRouter)
-Vue.use(BootstrapVue)
-
+Vue.use(VueRouter);
+Vue.use(BootstrapVue);
+Vue.use(Vuelidate);
 const router = new VueRouter({routes});
 new Vue({
     render: h => h(App),
     router,
-}).$mount('#app')
+}).$mount('#app');
