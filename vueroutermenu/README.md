@@ -2,11 +2,15 @@
 A simple Menu-implementation with Vue-Router: https://appdividend.com/2018/12/28/vue-router-tutorial-with-example-how-to-use-routing-in-vuejs/
 
 ## List Events
-![listEvents](listEvents.png)
+![listEvents](src/assets/listEvents.png)
 ## Add Event
-![addEvent](addEvent.png)
+![addEvent](src/assets/addEvent.png)
 ## Event Submitted
-![submitted](submitted.png)
+![submitted](src/assets/submitted.png)
+## Form validation error
+![formValidationError](src/assets/formValidationError.png)
+## form validation success
+![formValidationSuccess](src/assets/formValidationSuccess.png)
 
 ## Project setup
 ```
