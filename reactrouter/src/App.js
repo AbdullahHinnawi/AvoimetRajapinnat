@@ -5,8 +5,12 @@ import {
 } from 'react-router-dom'
 
 import Add from './components/Add'
+//import ContactForm from './components/ContactForm'
 import Home from './components/Home'
 import List from './components/List'
+
+
+
 
 
 const App = () => {
@@ -16,6 +20,7 @@ const App = () => {
     };
 
     return (
+
         <div className="container">
             <Router>
                 <div>
@@ -26,7 +31,7 @@ const App = () => {
 
                 <Switch>
                     <Route path="/add">
-                        <Add />
+                        <Add/>
                     </Route>
                     <Route path="/list">
                         <List />
@@ -42,7 +47,8 @@ const App = () => {
                 </div>
             </Router>
         </div>
-    )
-}
 
-export default App
+    )
+};
+
+export default App;

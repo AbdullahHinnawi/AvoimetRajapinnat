@@ -4,11 +4,15 @@ owner by University of Helsinki
 <br/>This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## List Events
-![listEvents](listEvents.png)
+![listEvents](images/listEvents.png)
 ## Add Event
-![addEvent](addEvent.png)
+![addEvent](images/addEvent.png)
 ## Event Submitted
-![submitted](submitted.png)
+![submitted](images/submitted.png)
+## Form validation error
+![formValidationError](images/formValidationError.png)
+## Form validation success
+![submitted](images/formvalidationSuccess.png)
 
 
 ## Available Scripts
