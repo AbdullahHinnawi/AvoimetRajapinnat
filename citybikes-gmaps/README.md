@@ -1,6 +1,14 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-![weather](weather.png)
+### All Bike Stations
+![allBikeStations](src/images/allBikeStations.png)
+### Selected Bike Station
+![selectedBikeStation](src/images/selectedBikeStation.png)
+### Destination Autocomplete
+![autoCompleteDestination](src/images/autoCompleteDestination.png)
+### Destination info
+![destinationInfo](src/images/destinationInfo.png)
+### Directions 
+![directions](src/images/directions.png)
 
 ## Available Scripts
 

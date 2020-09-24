@@ -27,11 +27,6 @@ class Weather extends React.Component {
         lng: '',
       },
     };
-    /*
-
-
-
-     */
 
   }
 
@@ -76,7 +71,7 @@ class Weather extends React.Component {
 
         <div>
 
-          <Card style={{width: '24rem'}}>
+          <Card style={{width: '26rem'}}>
             <Card.Body>
               <Card.Title>Weather
                 in {weather.name}, {weather.country}</Card.Title>
